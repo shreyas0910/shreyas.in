@@ -1,0 +1,41 @@
+body {
+  background-color: #000;
+  color: #00FF00;
+  font-family: 'Courier New', monospace;
+  margin: 20px;
+  padding: 20px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+
+#name {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+a {
+  color: #00FF00;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+a:hover {
+  color: #ADFF2F;
+}
+
+
+.blinking-cursor::after {
+  content: '|';
+  animation: blink 0.5s infinite;
+}
+
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
