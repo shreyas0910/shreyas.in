@@ -98,3 +98,27 @@ body:not(.dark-mode) #theme-toggle:hover {
     text-decoration: underline;
   
 }
+body.dark-mode #nvim:hover{
+  text-decoration: none;
+  color: #133a12;
+}
+#nvim:hover{
+  text-decoration: underline;
+  color: #dcdfdc;
+}
+body.dark-mode #tw:hover{
+  text-decoration: none;
+  color: #133a12;
+}
+body.dark-mode #gh:hover{
+  text-decoration: none;
+  color: #133a12;
+}
+body.dark-mode #hi:hover{
+  text-decoration: none;
+  color: #133a12;
+}
+#hi:hover{
+  text-decoration: underline;
+  color: #dcdfdc;
+}
