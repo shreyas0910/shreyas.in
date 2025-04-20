@@ -23,7 +23,7 @@ const darkModeClass = 'dark-mode';
 themeToggle.addEventListener('click', () => {
   body.classList.toggle(darkModeClass);
   updateButtonText();
-  saveThemePreference(); // Save preference to localStorage
+  saveThemePreference(); 
 });
 
 function updateButtonText() {
@@ -34,7 +34,7 @@ function updateButtonText() {
   }
 }
 
-// Check for saved theme preference on page load
+
 document.addEventListener('DOMContentLoaded', () => {
   const savedTheme = localStorage.getItem('theme');
   if (savedTheme === 'dark') {

@@ -36,7 +36,6 @@ a:hover {
   }
 }
 
-/* Light Mode */
 body:not(.dark-mode) {
   background-color: #f0f0f0;
   color: #333;
@@ -50,10 +49,9 @@ body:not(.dark-mode) a {
   color: #333;
 }
 
-/* Dark Mode (Terminal Colors) */
 body.dark-mode {
-  background-color: #000; /* Force terminal black */
-  color: #00FF00; /* Force terminal green */
+  background-color: #000; 
+  color: #00FF00; 
 }
 
 body.dark-mode h1,
@@ -61,16 +59,15 @@ body.dark-mode h2,
 body.dark-mode h3,
 body.dark-mode p,
 body.dark-mode a {
-  color: #00FF00; /* Force terminal green */
+  color: #00FF00; 
 }
 
-/* Style the button */
 #theme-toggle {
   padding: 10px 15px;
-  border: 2px solid #00FF00; /* Green border for both modes initially */
+  border: 2px solid #00FF00; 
   cursor: pointer;
-  background-color: #000; /* Black background for both modes initially */
-  color: #00FF00; /* Green text for both modes initially */
+  background-color: #000; 
+  color: #00FF00; 
   border-radius: 0;
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
@@ -81,7 +78,6 @@ body.dark-mode a {
   border-color: #00FF00;
 }
 
-/* Style the button in light mode specifically */
 body:not(.dark-mode) #theme-toggle {
   background-color: #fff;
   color: #333;
@@ -92,4 +88,13 @@ body:not(.dark-mode) #theme-toggle:hover {
   background-color: #ddd;
   color: #333;
   border-color: #ccc;
+}
+
+#theme-toggle{
+  font-family: 'Courier New', monospace;
+}
+#nvim{
+  
+    text-decoration: underline;
+  
 }
