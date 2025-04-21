@@ -118,6 +118,23 @@ body.dark-mode #hi:hover{
   text-decoration: none;
   color: #133a12;
 }
+#tw:hover{
+  text-decoration: underline;
+  color: #dcdfdc;
+}
+#gh:hover{
+  text-decoration: underline;
+  color: #dcdfdc;
+}
+#tw{
+  text-decoration: underline;
+}
+#gh{
+  text-decoration: underline;
+}
+#hi{
+  text-decoration: underline;
+}
 #hi:hover{
   text-decoration: underline;
   color: #dcdfdc;
