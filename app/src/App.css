@@ -28,6 +28,24 @@ body {
   margin-bottom: 0.5em;
 }
 
+#name .letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(8px);
+  animation: letterFadeIn 0.45s ease forwards;
+}
+
+@keyframes letterFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 #location {
   font-size: 1.1rem;
   color: #bdbdbd;
@@ -128,6 +146,50 @@ body {
 #links {
   margin-top: 3em;
   text-align: left;
+}
+
+#blogs {
+  margin-top: 3em;
+  text-align: left;
+}
+
+.blogs-star {
+  color: #ff5e1a;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-right: 0.2em;
+}
+
+.blogs-title {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+}
+
+.blogs-title:hover {
+  text-decoration: underline;
+}
+
+.blogs-list {
+  margin-top: 0.7em;
+  margin-bottom: 1em;
+}
+
+.blogs-link {
+  color: #ff5e1a;
+  text-decoration: none;
+  font-size: 1.05em;
+  font-family: inherit;
+  transition: color 0.2s;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+
+.blogs-link:hover {
+  color: #ff884d;
+  text-decoration: underline;
 }
 
 .links-star {

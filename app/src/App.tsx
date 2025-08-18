@@ -1,15 +1,22 @@
 import "./App.css";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
     <>
       <>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>shreyas.in</title>
-        <link rel="stylesheet" href="src/style.css" />
         <div className="container">
-          <h1 id="name">shreyas singh</h1>
+          <h1 id="name" aria-label="shreyas singh">
+            {"shreyas singh".split("").map((ch, idx) => (
+              <span
+                className="letter"
+                style={{ animationDelay: `${idx * 0.08}s` }}
+                key={idx}
+              >
+                {ch === " " ? "\u00A0" : ch}
+              </span>
+            ))}
+          </h1>
           <div id="location">
             <span>📍</span> UAE, Dubai
           </div>
@@ -60,6 +67,15 @@ function App() {
             >
               all projects ↗
             </a>
+          </section>
+          <section id="blogs">
+            <span className="blogs-star">*</span>
+            <Link className="blogs-title" to="/blogs">
+              blogs
+            </Link>
+            <div className="blogs-list">
+              <Link className="blogs-link" to="/blogs"></Link>
+            </div>
           </section>
           <section id="links">
             <span className="links-star">*</span>
