@@ -25,7 +25,7 @@ function App() {
           </div>
           <div id="bio2">
             <p>
-              i'm a 13 y/o student. i love building things and solving problems.
+              i'm a 14 y/o student. i love building things and solving problems.
               i enjoy language design, theoretical computer science and i live
               on the terminal. if i'm not coding, i'm probably reading, watching
               podcasts or working out.
