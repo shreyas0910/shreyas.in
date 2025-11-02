@@ -37,14 +37,14 @@ function App() {
             <div className="project">
               <a
                 className="project-name"
-                href="https://github.com/shreyas0910/ronaldo-discord-bot-"
+                href="https://github.com/shreyas0910/github-repo-finder"
                 target="_blank"
               >
-                DISCORD-BOT
+                github repo finder
               </a>
               <div className="project-role">creator</div>
               <div className="project-desc">
-                a discord bot that displays ronaldos real time stats.
+                a website that finds github repos.
               </div>
             </div>
             <div className="project">
